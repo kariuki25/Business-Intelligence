@@ -1,0 +1,22 @@
+namespace Calculator
+{
+	class Calc
+	{
+		public static void Main(string[] args)
+		{
+		     bool exit = false;
+		     while (!exit)
+		     {
+			try
+			{
+			 Console.writeLine("Enter '+' for addition"); 
+			 Console.writeLine("Enter '-' for subtraction");
+			 Console.writeLine("Enter '*' for multiplication");
+			 Console.writeLine("Enter '/' for division");
+			 char read = Convert.ToChar(Console.ReadLine());
+			
+			}
+		    }
+		}
+	}
+}			
